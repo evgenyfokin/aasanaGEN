@@ -1,0 +1,13 @@
+.vh {
+    background-color: rgb(238, 255, 0);
+    height: 300vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.center_block {
+    background-color: rgb(23, 170, 189);
+    width: 100%;
+    height: 100vh;
+}
