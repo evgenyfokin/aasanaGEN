@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -72,7 +72,7 @@ body {
     background: conic-gradient(from 90deg at bottom right, cyan, rebeccapurple);
     color: #ffffff;
     font-size: 17px;
-    margin-top: 200px;
+    margin-top: 100px;
     opacity: 0.6;
     transition: 0.3s;
 }
@@ -96,6 +96,7 @@ body {
     justify-content: center;
     bottom: 0;
     opacity: 0;
+    margin-bottom: 40px;
 }
 
 .loader__element {
@@ -177,4 +178,9 @@ body {
 .get-up a {
     text-decoration: none;
     color: #fff;
+}
+
+.scroll-up {
+    top: 0;
+    position: absolute;
 }

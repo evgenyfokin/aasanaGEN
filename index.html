@@ -8,8 +8,8 @@
         <title>YOGASANA</title>
     </head>
     <body>
-        <script src="script.js"></script>
         <div class="header">
+            <div id="scroll-up" class="scroll-up"></div>
             <div class="container">
                 <div class="title">
                     <h2>Welcome to</h2>
@@ -30,7 +30,7 @@
         <div class="container">
             <div class="content">
                 <div
-                    id="tr"
+                    id="scroll-down"
                     class="asan"
                     style="
                         background-image: url(img/1.jpg);
@@ -108,13 +108,15 @@
                         alt="above"
                         style="width: 50px; height: 50px"
                     />
-                    <button class="get-up">
-                        <a href="https://evgenyfokin.github.io/aasanaGEN/"
+                    <button class="get-up" onclick="getUp()">
+                        UP
+                        <!-- <a href="https://evgenyfokin.github.io/aasanaGEN/"
                             >UP</a
-                        >
+                        > -->
                     </button>
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
